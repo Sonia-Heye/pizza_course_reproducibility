@@ -1,0 +1,16 @@
+[project]
+name = "pizzacourse_reproducibility"
+version = "0.1.0"
+description = "Add a short description here"
+channels = ["conda-forge", "bioconda"]
+platforms = ["win-64"]
+
+[tasks]
+
+[dependencies]
+cookiecutter = ">=2.6.0,<2.7"
+jinja2-time = ">=0.2.0,<0.3"
+dvc = ">=3.48.2"
+imod = "0.15.3.*"
+snakemake = ">=8.7.0,<8.8"
+git = ">=2.44.0,<2.45"
